@@ -1,0 +1,1065 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "943f5c5e-512b-4fc5-b087-a22b0cf87201")
+	(paper "A3")
+	(lib_symbols
+		(symbol "LED:WS2812S"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812S"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.world-semi.com/DownLoadFile/115"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P1.6mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812S_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812S_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812S_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 198.12 204.47) (xy 222.25 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b61eaec-1ec7-4618-a56c-9d35593deac2")
+	)
+	(bus
+		(pts
+			(xy 198.12 144.78) (xy 222.25 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e87b0bc-5b70-4d05-8c62-b5523026c0e5")
+	)
+	(wire
+		(pts
+			(xy 151.13 167.64) (xy 151.13 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25da1d0e-e5ee-4e8a-aeac-54edef5a28c3")
+	)
+	(wire
+		(pts
+			(xy 125.73 160.02) (xy 143.51 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b496f6-d68a-4a74-80ff-59333864df72")
+	)
+	(wire
+		(pts
+			(xy 127 170.18) (xy 151.13 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e83fd4-d70a-4f1d-9eb9-c6cc0c9c00ef")
+	)
+	(wire
+		(pts
+			(xy 198.12 149.86) (xy 222.25 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba90c9b-0100-467c-9475-7edf2fe54134")
+	)
+	(bus
+		(pts
+			(xy 198.12 142.24) (xy 222.25 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2f8697-9e93-4919-ad61-eafe3f6c50f4")
+	)
+	(wire
+		(pts
+			(xy 198.12 201.93) (xy 222.25 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90788365-31c2-44ad-84fd-5e3f1be1494e")
+	)
+	(wire
+		(pts
+			(xy 158.75 160.02) (xy 176.53 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bdcc46c-cd6f-4897-9a79-b75a4ee6e878")
+	)
+	(bus
+		(pts
+			(xy 198.12 196.85) (xy 222.25 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f3e63f-cb46-4d72-86dc-9866260d9671")
+	)
+	(wire
+		(pts
+			(xy 198.12 147.32) (xy 222.25 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5623cbd-429c-4c88-adde-4be27bf6b489")
+	)
+	(wire
+		(pts
+			(xy 198.12 138.43) (xy 222.25 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2034119-4778-43bb-ba79-7232033a0626")
+	)
+	(wire
+		(pts
+			(xy 198.12 193.04) (xy 222.25 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc65aad-60af-465f-844c-84a4a6c2464f")
+	)
+	(bus
+		(pts
+			(xy 198.12 199.39) (xy 222.25 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f431bed8-9d24-47a0-83f8-86ffa9a1b006")
+	)
+	(label "FT601_0_CLK"
+		(at 129.54 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "241e355b-c41f-4370-a678-e264e616fa53")
+	)
+	(label "FT601_0_DATA0"
+		(at 125.73 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "294187f7-eb98-4b38-9902-9dc303be3e40")
+	)
+	(label "FT601_0_TXE_N"
+		(at 201.93 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3257411f-70ad-4d6a-8abe-75811e8adf38")
+	)
+	(label "FT601_0_DATA[31..0]"
+		(at 201.93 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4768c034-d30f-4a76-827c-bc17199cdfda")
+	)
+	(label "FT601_0_DATA1"
+		(at 158.75 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b647585-4c92-4568-af5c-397e92105b5f")
+	)
+	(label "FT601_0_DATA[31..0]"
+		(at 201.93 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "665fe36a-fbf8-488e-99e5-9f6c793ef549")
+	)
+	(label "FT601_0_CLK"
+		(at 201.93 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69538f3f-468a-478a-b993-816262401688")
+	)
+	(label "FT601_0_CLK"
+		(at 201.93 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89ee0709-2e31-4421-8c1b-6daee912f3e9")
+	)
+	(label "FT601_0_RXF_N"
+		(at 201.93 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91558b6a-75c8-4833-8432-046dd9626a88")
+	)
+	(label "FT601_0_TXE_N"
+		(at 201.93 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a24b9b8b-8668-4418-b451-0ffdb8a8f9cd")
+	)
+	(label "FT601_0_BE[3..0]"
+		(at 201.93 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4fae815-ad91-4bdf-8621-54c6c2ec1c7e")
+	)
+	(label "FT601_0_RXF_N"
+		(at 201.93 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b627a78f-0f61-46af-a99e-aef18d7e7136")
+	)
+	(label "FT601_0_BE[3..0]"
+		(at 201.93 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f16b1890-254b-4359-a932-a650a6c4320e")
+	)
+	(symbol
+		(lib_id "LED:WS2812S")
+		(at 151.13 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebcce55d-fc4a-4878-9069-363ac7ec5ae4")
+		(property "Reference" "D1"
+			(at 162.56 153.5998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812S"
+			(at 162.56 156.1398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 152.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.world-semi.com/DownLoadFile/115"
+			(at 153.67 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 151.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6ae79d3-26e1-447a-9117-14fac9559f6f")
+		)
+		(pin "3"
+			(uuid "63b0d151-10f4-49e5-97e9-a72d62e6debc")
+		)
+		(pin "5"
+			(uuid "e2dbd8b7-1e80-4e06-a3f3-afbdcf9752e2")
+		)
+		(pin "6"
+			(uuid "83b02d97-4a46-46f5-b2b1-a107cfb65e28")
+		)
+		(pin "2"
+			(uuid "8c6e1524-2253-4ed6-9d43-634fd20b445e")
+		)
+		(pin "4"
+			(uuid "9ab27bad-6e6e-45cd-b125-ed967443d89f")
+		)
+		(instances
+			(project ""
+				(path "/943f5c5e-512b-4fc5-b087-a22b0cf87201"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 189.23)
+		(size 60.96 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32cf5e9c-7f2f-491c-a056-1e2f36728556")
+		(property "Sheetname" "F601 USB1"
+			(at 222.25 188.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "f601q.kicad_sch"
+			(at 222.25 232.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FT601_CLK" output
+			(at 222.25 193.04 180)
+			(uuid "c3d7e207-75b5-4dda-8c31-fcc8d8009e6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_DATA[31..0]" bidirectional
+			(at 222.25 196.85 180)
+			(uuid "7a7d6bc2-a845-4f05-8143-73e75f220b7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_BE[3..0]" bidirectional
+			(at 222.25 199.39 180)
+			(uuid "f229a325-9d05-4243-a542-63148a369f32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_RXF_N" output
+			(at 222.25 201.93 180)
+			(uuid "caf331b7-91a5-4c12-8ea4-a367ae75af12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_TXE_N" output
+			(at 222.25 204.47 180)
+			(uuid "0b6bc4ed-c100-4793-ba06-6afe084ccf84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_RD_N" input
+			(at 222.25 208.28 180)
+			(uuid "a3ab872a-7db6-48a4-b6ff-f9fbe3a500b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_SIWU_N" input
+			(at 222.25 227.33 180)
+			(uuid "6a008635-404a-4e6a-9f3d-ecae2e880568")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_OE_N" input
+			(at 222.25 210.82 180)
+			(uuid "a68c1671-cd15-45ff-8359-7a292ae5f2e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_GPIO1" bidirectional
+			(at 222.25 220.98 180)
+			(uuid "3aa33f07-e564-41ef-8400-9b91f83ce2ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_GPIO0" bidirectional
+			(at 222.25 218.44 180)
+			(uuid "0f6db3a9-6892-4381-8627-2e1acba152d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_VBUS" output
+			(at 283.21 198.12 0)
+			(uuid "c88ae5cf-802a-46a7-b38a-aa2974c30944")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FT601_RESET_N" output
+			(at 283.21 200.66 0)
+			(uuid "a94736eb-631a-45ae-b181-ee4ccaf2a9e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FT601_WR_N" input
+			(at 222.25 213.36 180)
+			(uuid "0c553354-bb7d-4958-ad7d-055a6a318fcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_WAKEUP_N" output
+			(at 283.21 203.2 0)
+			(uuid "7b95c8cd-677a-4e58-81f8-74dad667751a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fpga_usb"
+				(path "/943f5c5e-512b-4fc5-b087-a22b0cf87201"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.55 59.69)
+		(size 105.41 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd2b8dcb-4493-40c4-ba09-958c325150c0")
+		(property "Sheetname" "EP2C35 FPGA"
+			(at 209.55 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ep2c35_fpga.kicad_sch"
+			(at 209.55 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpga_usb"
+				(path "/943f5c5e-512b-4fc5-b087-a22b0cf87201"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 134.62)
+		(size 60.96 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d47b4d4b-fee6-4d66-9076-2dc9c52256c1")
+		(property "Sheetname" "F601 USB"
+			(at 222.25 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "f601q.kicad_sch"
+			(at 222.25 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FT601_CLK" output
+			(at 222.25 138.43 180)
+			(uuid "cf900056-32d0-402d-bb49-dc08e378b280")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_DATA[31..0]" bidirectional
+			(at 222.25 142.24 180)
+			(uuid "5e4489bd-25bb-4a06-9fb3-27244d28a7e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_BE[3..0]" bidirectional
+			(at 222.25 144.78 180)
+			(uuid "f8e88eb1-9d75-403f-af59-a4bdddc45c6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_RXF_N" output
+			(at 222.25 147.32 180)
+			(uuid "40e682aa-b9cb-44b4-b0e1-091a39652f43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_TXE_N" output
+			(at 222.25 149.86 180)
+			(uuid "3e78069f-8e50-465b-91a5-606d00de39b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_RD_N" input
+			(at 222.25 153.67 180)
+			(uuid "d5a68cc7-b940-43bb-ae68-9b9945964c6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_SIWU_N" input
+			(at 222.25 172.72 180)
+			(uuid "c02c4f54-7620-4383-884d-bb0e3649710a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_OE_N" input
+			(at 222.25 156.21 180)
+			(uuid "af36c0a7-94b0-47c6-9284-381e0cc220de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_GPIO1" bidirectional
+			(at 222.25 166.37 180)
+			(uuid "db9a00e5-89fe-40c9-8166-3811ad6a6904")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_GPIO0" bidirectional
+			(at 222.25 163.83 180)
+			(uuid "26997836-496b-4c9b-85c4-564afea19027")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_VBUS" output
+			(at 283.21 143.51 0)
+			(uuid "e1c9218c-9207-4724-9e2b-7a6cdb69cbe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FT601_RESET_N" output
+			(at 283.21 146.05 0)
+			(uuid "fb94595b-2bc5-4dc9-b787-cd2d3342e22e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FT601_WR_N" input
+			(at 222.25 158.75 180)
+			(uuid "94aaab94-6283-44b1-aa2c-a9160f919a87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT601_WAKEUP_N" output
+			(at 283.21 148.59 0)
+			(uuid "0a2664a8-fcff-45ae-bf58-96280547e9a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fpga_usb"
+				(path "/943f5c5e-512b-4fc5-b087-a22b0cf87201"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
