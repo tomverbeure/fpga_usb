@@ -666,7 +666,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "32cf5e9c-7f2f-491c-a056-1e2f36728556")
-		(property "Sheetname" "F601 USB1"
+		(property "Sheetname" "USB1"
 			(at 222.25 188.5184 0)
 			(effects
 				(font
@@ -890,7 +890,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d47b4d4b-fee6-4d66-9076-2dc9c52256c1")
-		(property "Sheetname" "F601 USB"
+		(property "Sheetname" "USB0"
 			(at 222.25 133.9084 0)
 			(effects
 				(font

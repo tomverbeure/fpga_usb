@@ -1,4 +1,4 @@
-24735720720006481
+24752852419574671
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64644,6 +64644,69 @@ solder jumper open
 0
 3
 3
+Kicad_Personal
+Colorlight K5+
+Colorlight_K5_ StepUp generated footprint
+
+0
+248
+244
+Kicad_Personal
+High Density 2x60 Connector
+High Density 2x60 Connector
+
+0
+120
+120
+Kicad_Personal
+MountingHole_3.7mm_3.9mm_Pad_TopBottom
+Mounting Hole 3.7mm
+mounting hole 3.7mm
+0
+3
+1
+Kicad_Personal
+Oscillator_OCXO_CTI_OSC5A2B02
+https://www.morion-us.com/catalog_pdf/mv317.pdf
+OCXO
+0
+5
+5
+Kicad_Personal
+Oscillator_OCXO_Isotemp_131
+https://www.morion-us.com/catalog_pdf/mv317.pdf
+OCXO
+0
+5
+5
+Kicad_Personal
+Oscillator_OCXO_Oscilloquartz_8663
+http://www.morion.com.ru/catalog_pdf/MV267.pdf
+OCXO
+0
+5
+5
+Kicad_Personal
+RP2040-Zero
+Through hole straight pin header, 1x23, 2.54mm pitch, single row
+Through hole pin header THT 1x23 2.54mm single row
+0
+23
+23
+Kicad_Personal
+TerminalBlock_MAX-MX127-5.0-02P
+MAX MX127-5.0-02P See https://www.lcsc.com/product-detail/Screw-span-style-background-color-ff0-terminal-span_MAX-MX127-5-0-02P-GN01-Cu-Y-A_C5188440.html
+MAX MX127-5.0-02P terminal block pitch 5.0mm
+0
+2
+2
+Kicad_Personal
+battery_holder_2x18650
+footprint StepUp generated footprint
+
+0
+4
+4
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -69796,6 +69859,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PI5USB30213AXEAEX-2
+QFN40P400X200X50-25N
+
+
+0
+29
+29
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf
