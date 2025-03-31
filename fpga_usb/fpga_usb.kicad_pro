@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -127,7 +127,7 @@
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -504,16 +504,496 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/FT601_0_BE0": [
+        "Narrow"
+      ],
+      "/FT601_0_BE1": [
+        "Narrow"
+      ],
+      "/FT601_0_BE2": [
+        "Narrow"
+      ],
+      "/FT601_0_BE3": [
+        "Narrow"
+      ],
+      "/FT601_0_CLK": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA0": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA1": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA10": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA11": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA12": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA13": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA14": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA15": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA16": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA17": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA18": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA19": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA2": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA20": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA21": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA22": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA23": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA24": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA25": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA26": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA27": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA28": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA29": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA3": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA30": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA31": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA4": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA5": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA6": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA7": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA8": [
+        "Narrow"
+      ],
+      "/FT601_0_DATA9": [
+        "Narrow"
+      ],
+      "/FT601_0_RXF_N": [
+        "Narrow"
+      ],
+      "/FT601_0_TXE_N": [
+        "Narrow"
+      ],
+      "/FT601_1_BE0": [
+        "Narrow"
+      ],
+      "/FT601_1_BE1": [
+        "Narrow"
+      ],
+      "/FT601_1_BE2": [
+        "Narrow"
+      ],
+      "/FT601_1_BE3": [
+        "Narrow"
+      ],
+      "/FT601_1_CLK": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA0": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA1": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA10": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA11": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA12": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA13": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA14": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA15": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA16": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA17": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA18": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA19": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA2": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA20": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA21": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA22": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA23": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA24": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA25": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA26": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA27": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA28": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA29": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA3": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA30": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA31": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA4": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA5": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA6": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA7": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA8": [
+        "Narrow"
+      ],
+      "/FT601_1_DATA9": [
+        "Narrow"
+      ],
+      "/FT601_1_RXF_N": [
+        "Narrow"
+      ],
+      "/FT601_1_TXE_N": [
+        "Narrow"
+      ],
+      "/USB0/CC1": [
+        "Narrow"
+      ],
+      "/USB0/CC2": [
+        "Narrow"
+      ],
+      "/USB0/DM": [
+        "Narrow"
+      ],
+      "/USB0/DP": [
+        "Narrow"
+      ],
+      "/USB0/FT601_GPIO0": [
+        "Narrow"
+      ],
+      "/USB0/FT601_GPIO1": [
+        "Narrow"
+      ],
+      "/USB0/FT601_OE_N": [
+        "Narrow"
+      ],
+      "/USB0/FT601_RD_N": [
+        "Narrow"
+      ],
+      "/USB0/FT601_RESET_N": [
+        "Narrow"
+      ],
+      "/USB0/FT601_SIWU_N": [
+        "Narrow"
+      ],
+      "/USB0/FT601_WAKEUP_N": [
+        "Narrow"
+      ],
+      "/USB0/FT601_WR_N": [
+        "Narrow"
+      ],
+      "/USB0/RIDN": [
+        "Narrow"
+      ],
+      "/USB0/RIDP": [
+        "Narrow"
+      ],
+      "/USB0/RX1_N": [
+        "Narrow"
+      ],
+      "/USB0/RX1_P": [
+        "Narrow"
+      ],
+      "/USB0/RX2_N": [
+        "Narrow"
+      ],
+      "/USB0/RX2_P": [
+        "Narrow"
+      ],
+      "/USB0/RX_N": [
+        "Narrow"
+      ],
+      "/USB0/RX_P": [
+        "Narrow"
+      ],
+      "/USB0/TODN": [
+        "Narrow"
+      ],
+      "/USB0/TODP": [
+        "Narrow"
+      ],
+      "/USB0/TX1_N": [
+        "Narrow"
+      ],
+      "/USB0/TX1_P": [
+        "Narrow"
+      ],
+      "/USB0/TX2_N": [
+        "Narrow"
+      ],
+      "/USB0/TX2_P": [
+        "Narrow"
+      ],
       "/USB0/TX_N": [
         "Narrow"
       ],
       "/USB0/TX_P": [
         "Narrow"
       ],
+      "/USB0/USB_ID": [
+        "Narrow"
+      ],
+      "/USB0/USB_INTB": [
+        "Narrow"
+      ],
+      "/USB0/USB_SCL": [
+        "Narrow"
+      ],
+      "/USB0/USB_SDA": [
+        "Narrow"
+      ],
+      "/USB0/XI": [
+        "Narrow"
+      ],
+      "/USB0/XO": [
+        "Narrow"
+      ],
+      "/USB1/CC1": [
+        "Narrow"
+      ],
+      "/USB1/CC2": [
+        "Narrow"
+      ],
+      "/USB1/DM": [
+        "Narrow"
+      ],
+      "/USB1/DP": [
+        "Narrow"
+      ],
+      "/USB1/FT601_GPIO0": [
+        "Narrow"
+      ],
+      "/USB1/FT601_GPIO1": [
+        "Narrow"
+      ],
+      "/USB1/FT601_OE_N": [
+        "Narrow"
+      ],
+      "/USB1/FT601_RD_N": [
+        "Narrow"
+      ],
+      "/USB1/FT601_RESET_N": [
+        "Narrow"
+      ],
+      "/USB1/FT601_SIWU_N": [
+        "Narrow"
+      ],
+      "/USB1/FT601_WAKEUP_N": [
+        "Narrow"
+      ],
+      "/USB1/FT601_WR_N": [
+        "Narrow"
+      ],
+      "/USB1/RIDN": [
+        "Narrow"
+      ],
+      "/USB1/RIDP": [
+        "Narrow"
+      ],
+      "/USB1/RX1_N": [
+        "Narrow"
+      ],
+      "/USB1/RX1_P": [
+        "Narrow"
+      ],
+      "/USB1/RX2_N": [
+        "Narrow"
+      ],
+      "/USB1/RX2_P": [
+        "Narrow"
+      ],
+      "/USB1/RX_N": [
+        "Narrow"
+      ],
+      "/USB1/RX_P": [
+        "Narrow"
+      ],
+      "/USB1/TODN": [
+        "Narrow"
+      ],
+      "/USB1/TODP": [
+        "Narrow"
+      ],
+      "/USB1/TX1_N": [
+        "Narrow"
+      ],
+      "/USB1/TX1_P": [
+        "Narrow"
+      ],
+      "/USB1/TX2_N": [
+        "Narrow"
+      ],
+      "/USB1/TX2_P": [
+        "Narrow"
+      ],
       "/USB1/TX_N": [
         "Narrow"
       ],
       "/USB1/TX_P": [
+        "Narrow"
+      ],
+      "/USB1/USB_ID": [
+        "Narrow"
+      ],
+      "/USB1/USB_INTB": [
+        "Narrow"
+      ],
+      "/USB1/USB_SCL": [
+        "Narrow"
+      ],
+      "/USB1/USB_SDA": [
+        "Narrow"
+      ],
+      "/USB1/XI": [
+        "Narrow"
+      ],
+      "/USB1/XO": [
+        "Narrow"
+      ],
+      "Net-(U6-A1P)": [
+        "Narrow"
+      ],
+      "Net-(U6-A2N)": [
+        "Narrow"
+      ],
+      "Net-(U6-A2P)": [
+        "Narrow"
+      ],
+      "Net-(U6-ADDR)": [
+        "Narrow"
+      ],
+      "Net-(U6-AIN)": [
+        "Narrow"
+      ],
+      "Net-(U6-ENB)": [
+        "Narrow"
+      ],
+      "Net-(U6-PORT)": [
+        "Narrow"
+      ],
+      "Net-(U6-VBUSDET)": [
+        "Narrow"
+      ],
+      "Net-(U6-VCONN)": [
+        "Narrow"
+      ],
+      "Net-(U7-A1P)": [
+        "Narrow"
+      ],
+      "Net-(U7-A2N)": [
+        "Narrow"
+      ],
+      "Net-(U7-A2P)": [
+        "Narrow"
+      ],
+      "Net-(U7-ADDR)": [
+        "Narrow"
+      ],
+      "Net-(U7-AIN)": [
+        "Narrow"
+      ],
+      "Net-(U7-ENB)": [
+        "Narrow"
+      ],
+      "Net-(U7-PORT)": [
+        "Narrow"
+      ],
+      "Net-(U7-VBUSDET)": [
+        "Narrow"
+      ],
+      "Net-(U7-VCONN)": [
         "Narrow"
       ]
     },

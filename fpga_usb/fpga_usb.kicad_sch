@@ -468,7 +468,7 @@
 		)
 		(uuid "3257411f-70ad-4d6a-8abe-75811e8adf38")
 	)
-	(label "FT601_0_DATA[31..0]"
+	(label "FT601_1_DATA[31..0]"
 		(at 201.93 196.85 0)
 		(effects
 			(font
@@ -498,7 +498,7 @@
 		)
 		(uuid "665fe36a-fbf8-488e-99e5-9f6c793ef549")
 	)
-	(label "FT601_0_CLK"
+	(label "FT601_1_CLK"
 		(at 201.93 193.04 0)
 		(effects
 			(font
@@ -528,7 +528,7 @@
 		)
 		(uuid "91558b6a-75c8-4833-8432-046dd9626a88")
 	)
-	(label "FT601_0_TXE_N"
+	(label "FT601_1_TXE_N"
 		(at 201.93 204.47 0)
 		(effects
 			(font
@@ -538,7 +538,7 @@
 		)
 		(uuid "a24b9b8b-8668-4418-b451-0ffdb8a8f9cd")
 	)
-	(label "FT601_0_BE[3..0]"
+	(label "FT601_1_BE[3..0]"
 		(at 201.93 199.39 0)
 		(effects
 			(font
@@ -548,7 +548,7 @@
 		)
 		(uuid "a4fae815-ad91-4bdf-8621-54c6c2ec1c7e")
 	)
-	(label "FT601_0_RXF_N"
+	(label "FT601_1_RXF_N"
 		(at 201.93 201.93 0)
 		(effects
 			(font
